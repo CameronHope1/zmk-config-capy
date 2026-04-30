@@ -1,9 +1,11 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
 
 / {
 	chosen {
 		zmk,kscan = &default_kscan;
 		zmk,matrix_transform = &default_transform;
+		zmk,physical-layout = &capy_layout;
 	};
 
 	default_kscan: kscan {
@@ -36,5 +38,12 @@
 			RC(3,0) RC(3,1) RC(3,2)
 
 		>;
+	};
+
+	capy_layout: capy_layout {
+	    compatible = "zmk,physical-layout";
+	    display-name = "Capy Layout";
+	    kscan = <&default_kscan>;
+	    transform = <&default_transform>;
 	};
 };
