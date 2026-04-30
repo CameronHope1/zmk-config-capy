@@ -1,0 +1,12 @@
+file_format: "1"
+id: Capy
+name: Capy
+type: shield
+url: https://github.com/CameronHope1/zmk-config-capy
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - Capy_left
+  - Capy_right
