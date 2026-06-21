@@ -1,6 +1,6 @@
 file_format: "1"
-id: Capy
-name: Capy
+id: capy
+name: capy
 type: shield
 url: https://github.com/CameronHope1/zmk-config-capy
 requires:
@@ -8,5 +8,5 @@ requires:
 features:
   - keys
 siblings:
-  - Capy_left
-  - Capy_right
+  - capy_left
+  - capy_right

@@ -40,7 +40,7 @@
 
 	capy_layout: capy_layout {
 	    compatible = "zmk,physical-layout";
-	    display-name = "Capy Layout";
+	    display-name = "capy_layout";
 	    kscan = <&default_kscan>;
 	    transform = <&default_transform>;
 	     keys  //                     w   h    x    y     rot    rx    ry
