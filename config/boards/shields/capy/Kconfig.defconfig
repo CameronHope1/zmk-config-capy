@@ -1,14 +1,16 @@
-if SHIELD_CAPY_LEFT || SHIELD_CAPY_RIGHT
+if SHIELD_CAPY_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Capy"
 
-config ZMK_SPLIT
-    default y
-
-if SHIELD_CAPY_LEFT
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
-endif
 
 endif
+
+if SHIELD_CAPY_LEFT || SHIELD_CAPY_RIGHT
+
+config ZMK_SPLIT
+    default y
+endif
+
