@@ -1,4 +1,4 @@
-#include "Capy.dtsi"
+#include "capy.dtsi"
 
 / {
     chosen {
