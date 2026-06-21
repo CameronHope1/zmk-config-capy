@@ -1,5 +1,5 @@
 config SHIELD_CAPY_LEFT
-    def_bool $(shields_list_contains, capy_left)
+    def_bool $(shields_list_contains,capy_left)
 
 config SHIELD_CAPY_RIGHT
-    def_bool $(shields_list_contains, capy_right)
+    def_bool $(shields_list_contains,capy_right)
